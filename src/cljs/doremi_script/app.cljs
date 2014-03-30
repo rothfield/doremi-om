@@ -1,4 +1,4 @@
-(ns react-tutorial-om.app
+(ns doremi-script.app
   (:require-macros [cljs.core.async.macros :refer [go alt!]]
                    [secretary.macros :refer [defroute]])
   (:require [goog.events :as events]
@@ -8,7 +8,7 @@
             [om.dom :as dom :include-macros true]
             [secretary.core :as secretary]
             [cljs-http.client :as http]
-            [react-tutorial-om.utils :refer [guid]])
+            [doremi-script.utils :refer [guid]])
   (:import [goog History]
            [goog.history EventType]))
 

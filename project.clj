@@ -1,4 +1,4 @@
-(defproject react-tutorial-om "0.1.0-SNAPSHOT"
+(defproject doremi-script "0.1.0-SNAPSHOT"
   :description "FIXME: write this!"
   :url "http://example.com/FIXME"
 
@@ -19,8 +19,8 @@
   :plugins [[lein-cljsbuild "1.0.0"]
             [lein-ring "0.8.7"]]
 
-  :ring {:handler react-tutorial-om.core/app
-         :init    react-tutorial-om.core/init}
+  :ring {:handler doremi-script.core/app
+         :init    doremi-script.core/init}
 
   :source-paths ["src/clj"]
 

@@ -1,4 +1,4 @@
-(ns react-tutorial-om.core
+(ns doremi-script.core
   (:require [compojure.handler :as handler]
             [compojure.route :as route]
             [compojure.core :refer [GET POST defroutes]]
