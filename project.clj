@@ -1,12 +1,15 @@
-(defproject doremi-script "0.1.0-SNAPSHOT"
+(defproject doremi "0.1.0-SNAPSHOT"
+  :source-paths ["src/clj" "src/cljs"]
   :description "FIXME: write this!"
   :url "http://example.com/FIXME"
 
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/tools.reader "0.8.3"]
                  ;; CLJ
-                 [ring/ring-core "1.2.0"]
+                 [ring "1.2.1"]
+                 [ring/ring-core "1.2.1"]
                  [compojure "1.1.6"]
+                 [enlive "1.1.5"]
                  [cheshire "5.3.1"]
                  ;; CLJS
                  [org.clojure/clojurescript "0.0-2138"]
@@ -18,11 +21,16 @@
   :plugins [[lein-cljsbuild "1.0.0"]
             [lein-ring "0.8.7"]]
 
-  :ring {:handler doremi-script.core/app
-         :init    doremi-script.core/init}
+  :ring {:handler doremi.core/app
+         :init    doremi.core/init}
 
-  :source-paths ["src/clj"]
-
+  :profiles {
+             :dev {
+                  ;; :repl-options {:init-ns doremi-script.app}
+                   :plugins [[
+                              com.cemerick/austin "0.1.3" 
+                              ]]}
+             }
   :cljsbuild {
               :builds [{:id "dev"
                         :source-paths ["src/cljs"]

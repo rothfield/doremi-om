@@ -1,0 +1,148 @@
+(def repl-env (reset! cemerick.austin.repls/browser-repl-env
+                      (cemerick.austin/repl-env)))
+exit
+exot
+exit
+(cemerick.austin.repls/browser-connected-repl-js)
+(cemerick.austin.repls/cljs-repl repl-env)
+(def repl-env (reset! cemerick.austin.repls/browser-repl-env
+                      (cemerick.austin/repl-env)))
+(cemerick.austin.repls/cljs-repl repl-env)
+exit
+(def repl-env (reset! cemerick.austin.repls/browser-repl-env
+                      (cemerick.austin/repl-env)))
+(def repl-env (reset! cemerick.austin.repls/browser-repl-env
+                      (cemerick.austin/repl-env)))
+(cemerick.austin.repls/browser-connected-repl-js)
+(def repl-env (reset! cemerick.austin.repls/browser-repl-env
+                      (cemerick.austin/repl-env)))
+(cemerick.austin.repls/cljs-repl repl-env)
+(js/alert "Salut!")
+(def repl-env (reset! cemerick.austin.repls/browser-repl-env
+                      (cemerick.austin/repl-env))
+)
+(defonce server (run-jetty #'handler {:port 8080 :join? false})
+)
+(def repl-env (reset! cemerick.austin.repls/browser-repl-env
+                      (cemerick.austin/repl-env)))
+(cemerick.austin.repls/cljs-repl repl-env)
+exit
+quit
+(run)
+(doremi-script/core/run)
+(doremi_script.core/run)
+(doremi-script.core/run)
+(ns doremi-script.core)
+(run)
+(ns doremi-script.core)
+(run)
+exit
+(doremi-script.core.run)
+(doremi-script.core/run)
+(doremi_script.core/run)
+(ns doremi_script.core)
+(run)
+comments
+(use doremi_script.core)
+quit
+(ns doremi.core)
+(run)
+(in-ns doremi.core)
+quit
+(use doremi.core)
+(use 'doremi.core)
+quit
+(use 'doremi.core)
+quit
+(use 'doremi.core)
+quit
+(use 'doremi.core)
+quit
+(use 'doremi.core)
+quit
+(use 'doremi.core)
+(run)
+(def repl-env (reset! cemerick.austin.repls/browser-repl-env (cemerick.austin/repl-env)))
+(cemerick.austin.repls/cljs-repl repl-env)
+(js/alert "Salut!")
+(use 'doremi.core)
+(run)
+(def repl-env (reset! cemerick.austin.repls/browser-repl-env (cemerick.austin/repl-env)))
+(cemerick.austin.repls/cljs-repl repl-env)
+(js/alert "Salut!")
+(hello)
+(in-ns doremi-script)
+(in-ns 'doremi-script)
+(hello)
+hello
+(in-ns 'doremi-script/app)
+hello
+(hello)
+(doremi-script.app/hello)
+(ns doremi-script.app)
+(hello)
+exit
+(run)
+(ns doremi.app)
+(run)
+(doremi.app/run)
+(doremi.core/run)
+exit
+(ns doremi.core)
+(run)
+(ns 'doremi.core)
+(ns doremi.core)
+(run)
+(ns doremi.core)
+(run)
+(ns doremi.core)
+(run)
+(ns 'doremi.core)
+(run)
+(in-ns 'doremi.core)
+(run)
+(doremi.core/run
+)
+(ns doremi.core)
+(server)
+(doremi.core/run)
+exit
+(doremi.core/run)
+(ns doremi.core)
+(run)
+(app)
+run
+(ns doremi.core)
+(run)
+(in-ns 'doremi.core)
+(run)
+(ns 'doremi.core)
+(use doremi.core)
+(use 'doremi.core)
+(run)
+(use doremi.core)
+run
+(run)
+quit
+(ns doremi.core)
+(run)
+(ns 'doremi.core)
+(ns doremi.core)
+(run)
+(use 'doremi.core :reload)
+(ns doremi.core)
+(run)
+(def repl-env (reset! cemerick.austin.repls/browser-repl-env (cemerick.austin/repl-env)))
+(cemerick.austin.repls/cljs-repl repl-env)
+(js/alert "Salut!")
+exit
+(def repl-env (reset! cemerick.austin.repls/browser-repl-env (cemerick.austin/repl-env)))
+(use 'doremi.core :reload)
+(doremi.core/run)
+(use 'doremi.core :reload)
+(doremi.core/run)
+(use 'doremi.core :reload)
+(run)
+exit
+(use 'doremi.core :reload)
+(run)

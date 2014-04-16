@@ -1,0 +1,18 @@
+# automatically recompile
+lein cljsbuild auto
+#start web server
+lein repl #start repl
+(run) ;; start server http://localhost:8080
+;; Create a new Austin ClojureScript REPL environment,
+(def repl-env (reset! cemerick.austin.repls/browser-repl-env (cemerick.austin/repl-env)))
+;; start javascript repl
+(cemerick.austin.repls/cljs-repl repl-env)
+;; Reload the app at http://localhost:8080
+;; Test out the clojurescript repl
+(js/alert "Salut!")
+;; Change to our app's namespace
+(ns doremi_script/app)
+;; hello2 was defined in src/cljs/doremi_script/app.cljs
+(hello2)
+
+
