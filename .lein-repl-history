@@ -146,3 +146,26 @@ exit
 exit
 (use 'doremi.core :reload)
 (run)
+exit
+(run)
+exit
+(doremi.core/run)
+(use 'doremi.core :reload)
+js-repl
+(js-repl)
+doremi.app
+quit
+(run)
+(js-repl)
+(js/alert "Salut!")
+exit
+(run) (js-repl) 
+(js/alert "Salut!")
+exit
+(run) (js-repl) 
+(js-repl)
+(js/alert "Salut!")
+exit
+(js-repl)
+(js/alert "Salut!")
+exit

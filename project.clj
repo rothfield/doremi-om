@@ -1,5 +1,6 @@
 (defproject doremi "0.1.0-SNAPSHOT"
   :source-paths ["src/clj" "src/cljs"]
+  :main doremi.core
   :description "FIXME: write this!"
   :url "http://example.com/FIXME"
 
@@ -26,7 +27,14 @@
 
   :profiles {
              :dev {
-                  ;; :repl-options {:init-ns doremi-script.app}
+                   ;; Specify the ns to start the REPL in
+                   :repl-options {:init-ns doremi.core
+                                  :init 
+                                  (do
+                                    (println "starting web server on http://localhost:8080")
+                                    (doremi.core/run) ;; start web server
+                                    ) 
+                                  }
                    :plugins [[
                               com.cemerick/austin "0.1.3" 
                               ]]}

@@ -1,8 +1,16 @@
+# grab from github
+git clone https://github.com/rothfield/doremi-om.git
+
+lein deps  # load libraries
+
 # automatically recompile
 lein cljsbuild auto
 #start web server
 lein repl #start repl
-(run) ;; start server http://localhost:8080
+
+;; now you are in the repl
+(use 'doremi.core :reload)  ;; load doremi.core
+(doremi.core/run) ;; start server http://localhost:8080
 ;; Create a new Austin ClojureScript REPL environment,
 (def repl-env (reset! cemerick.austin.repls/browser-repl-env (cemerick.austin/repl-env)))
 ;; start javascript repl
