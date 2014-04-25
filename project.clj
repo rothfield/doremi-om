@@ -8,6 +8,7 @@
                  [org.clojure/tools.reader "0.8.3"]
                  ;; CLJ
                  [ring "1.2.1"]
+
                  [ring/ring-core "1.2.1"]
                  [compojure "1.1.6"]
                  [enlive "1.1.5"]
@@ -17,7 +18,13 @@
                  [org.clojure/core.async "0.1.267.0-0d7780-alpha"]
                  [secretary "0.4.0"]
                  [cljs-http "0.1.2"]
-                 [om "0.1.7"]]
+                ;; [om "0.1.7"]
+                 [om "0.6.0"]
+                 [com.cemerick/austin "0.1.3"] 
+                 ;; for game of life
+                 [jansi-clj "0.1.0"] 
+                 [jline "0.9.94"]
+                 ]
 
   :plugins [[lein-cljsbuild "1.0.0"]
             [lein-ring "0.8.7"]]
@@ -31,8 +38,8 @@
                    :repl-options {:init-ns doremi.core
                                   :init 
                                   (do
-                                    (println "starting web server on http://localhost:8080")
-                                    (doremi.core/run) ;; start web server
+                                ;;    (println "starting web server on http://localhost:8080")
+                                 ;;   (doremi.core/run) ;; start web server
                                     ) 
                                   }
                    :plugins [[

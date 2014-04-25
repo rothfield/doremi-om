@@ -1,0 +1,8 @@
+libssl1.0.0:
+  Installed: 1.0.1e-3
+  Candidate: 1.0.1e-3
+  Version table:
+ *** 1.0.1e-3 0
+        100 /var/lib/dpkg/status
+     1.0.1e-2+deb7u4 0
+        500 http://http.us.debian.org/debian/ wheezy/main i386 Packages

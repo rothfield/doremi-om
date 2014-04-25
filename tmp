@@ -1,0 +1,31 @@
+Package files:
+ 100 /var/lib/dpkg/status
+     release a=now
+ 500 http://www.deb-multimedia.org/ wheezy/main i386 Packages
+     release v=6.0,o=Unofficial Multimedia Packages,a=stable,n=wheezy,l=Unofficial Multimedia Packages,c=main
+     origin www.deb-multimedia.org
+ 500 http://www.deb-multimedia.org/ wheezy/main amd64 Packages
+     release v=6.0,o=Unofficial Multimedia Packages,a=stable,n=wheezy,l=Unofficial Multimedia Packages,c=main
+     origin www.deb-multimedia.org
+ 500 http://http.us.debian.org/debian/ wheezy/non-free Translation-en
+ 500 http://http.us.debian.org/debian/ wheezy/main Translation-en
+ 500 http://http.us.debian.org/debian/ wheezy/contrib Translation-en
+ 500 http://http.us.debian.org/debian/ wheezy/non-free i386 Packages
+     release v=7.4,o=Debian,a=stable,n=wheezy,l=Debian,c=non-free
+     origin http.us.debian.org
+ 500 http://http.us.debian.org/debian/ wheezy/contrib i386 Packages
+     release v=7.4,o=Debian,a=stable,n=wheezy,l=Debian,c=contrib
+     origin http.us.debian.org
+ 500 http://http.us.debian.org/debian/ wheezy/main i386 Packages
+     release v=7.4,o=Debian,a=stable,n=wheezy,l=Debian,c=main
+     origin http.us.debian.org
+ 500 http://http.us.debian.org/debian/ wheezy/non-free amd64 Packages
+     release v=7.4,o=Debian,a=stable,n=wheezy,l=Debian,c=non-free
+     origin http.us.debian.org
+ 500 http://http.us.debian.org/debian/ wheezy/contrib amd64 Packages
+     release v=7.4,o=Debian,a=stable,n=wheezy,l=Debian,c=contrib
+     origin http.us.debian.org
+ 500 http://http.us.debian.org/debian/ wheezy/main amd64 Packages
+     release v=7.4,o=Debian,a=stable,n=wheezy,l=Debian,c=main
+     origin http.us.debian.org
+Pinned packages:
